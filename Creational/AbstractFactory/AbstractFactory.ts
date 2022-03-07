@@ -39,6 +39,7 @@ class WinFactory implements GUIFactory {
   createButton(): Button {
     return new WinButton();
   }
+
   createCheckbox(): Checkbox {
     return new WinCheckbox();
   }

@@ -13,6 +13,7 @@ class SheepPrototype implements Prototype {
   constructor(private proto: Sheep) {
     this.proto = proto;
   }
+
   clone(): Sheep {
     return new Sheep(this.proto.name, this.proto.category);
   }
